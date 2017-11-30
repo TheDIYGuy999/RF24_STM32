@@ -13,10 +13,10 @@ STM32 Module used for the test: https://www.ebay.com/itm/STM32F103C8T6-ARM-STM32
 Please note, that "printf" does not work!
 
 It can be installed in parallel with the original RF24 library, because it was renamed to RF24_STM:
-#include <RF24_STM32.h> // This is for an STM32 MPU
-#include <RF24.h> // This is for an Atmega 328 MPU
+- #include <RF24_STM32.h> // This is for an STM32 MPU
+- #include <RF24.h> // This is for an Atmega 328 MPU
 
 How to use: http://tmrh20.github.io/RF24/classRF24.html
 
 Changelog:
--- Added keywords.txt for some syntax coloring
+- Added keywords.txt for some syntax coloring
